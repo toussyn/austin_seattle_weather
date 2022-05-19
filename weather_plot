@@ -1,5 +1,8 @@
-# Import the matplotlib.pyplot submodule and name it plt
+import pandas as pd
 import matplotlib.pyplot as plt
+
+seattle_weather = pd.read_csv('seattle_weather.csv')
+austin_weather = pd.read_csv('austin_weather.csv')
 
 # Create a Figure and an Axes with plt.subplots
 fig, ax = plt.subplots()
